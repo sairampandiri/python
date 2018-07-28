@@ -2,8 +2,8 @@
 from array import array
 N=int(input())
 K=int(input())
-b=0
-a = array("i")
+a=0
+c= array("m")
 for x in range(1,K+1):
-	b+=x
-print(b)
+	a+=x
+print(a)
