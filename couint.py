@@ -1,7 +1,7 @@
 # count nummbers of digits of an integer
-n=int(input())
-l=0
-while(n>0):
-	n=n//10
-	l+=1
-print(l)
+num=int(input())
+count=0
+while(num>0):
+	num=num//10
+	count+=1
+print(count)
