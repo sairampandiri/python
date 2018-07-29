@@ -1,4 +1,4 @@
-w=(float(input())
+w=float(input()
 if(w>0):
 	print("Positive")
 elif(w<0):
