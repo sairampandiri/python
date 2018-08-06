@@ -10,3 +10,5 @@ if a<=1000:
 			print("yes")
 	else:
 		print("yes")
+else:
+	print("no")
