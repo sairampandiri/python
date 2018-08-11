@@ -6,4 +6,4 @@ d=0
 a = [int(x) for x in input().split()]
 for i in range(0,b):
 		d+=a[i]
-print(d)
+print(d,end="")
