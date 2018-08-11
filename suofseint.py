@@ -4,7 +4,6 @@ c=int(c)
 b=int(b)
 d=0
 a = [int(x) for x in input().split()]
-for i in range(1,c+1):
-	if(b>=i):
-		d+=i
+for i in range(0,b):
+		d+=a[i]
 print(d)
