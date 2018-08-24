@@ -1,7 +1,7 @@
 # median element
 n=int(input())
 b=[int(x) for x in input().split()]
-c=b.sort()
+b.sort()
 if 1<=n<=1000:
   mn=int(n/2)
   if(n%2==0):
