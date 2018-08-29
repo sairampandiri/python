@@ -1,5 +1,4 @@
 #write a program to concatenate two strings without using strcat() function
-a,b=input().split()
-c='{0}{1}'.format(a,b)
-print(c)
+n,m=input().split()
+print('{0}{1}'.format(n,m))
 #print ("%s%s" % (a,b))
