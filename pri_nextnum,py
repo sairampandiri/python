@@ -1,0 +1,3 @@
+#given a number print the next number in python
+n=int(input())
+print(n+1)
