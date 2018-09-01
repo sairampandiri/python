@@ -1,5 +1,5 @@
 #given a string s, check if contains numeric and alphabets
-m=input("Enter Alphanumeric")
+m=input()
 c=0
 d=0
 for i in m:
@@ -8,7 +8,7 @@ for i in m:
     if(i.isalpha()):
       d=d+1
     if(c>0 and d>0):
-        print('yes')
+        print('Yes')
         break
 if(c==0 or d==0):
   print('No')
