@@ -2,4 +2,4 @@
 a=int(input())
 if(a<=100000):
   c=len(str(a))
-print(c,end="")
+  print(c,end="")
