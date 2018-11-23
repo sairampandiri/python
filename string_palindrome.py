@@ -1,5 +1,5 @@
 #Given a string s ,check the palindrome.print yes/no
-a="amma"
+a=input()
 b=a[::-1]
 if(a==b):
   print("yes")
